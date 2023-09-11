@@ -1,6 +1,5 @@
 {
   "name": "gue-ecosystem-naufal",
-  "type": "module",
   "devDependencies": {
     "@wdio/appium-service": "^8.16.6",
     "@wdio/cli": "^8.16.6",
