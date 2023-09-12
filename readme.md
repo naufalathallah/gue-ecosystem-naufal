@@ -66,8 +66,22 @@ Spec Files: 3 passed, 3 total (100% completed) in 00:03:10
 
 ## Manual test cases
 
-Download the excel from
+Manual test cases using ![Cucumber](https://img.shields.io/badge/Cucumber-%235B2063.svg?style=flat&logo=Cucumber&logoColor=white) style. The excel can be downloaded from here:
 
 ```
 manual/Tech test manual - naufal.xlsx
+```
+
+or
+
+```
+https://docs.google.com/spreadsheets/d/1rZtZTeMNf4pO7i8egVn5xq9rSRqYTBYN/edit?usp=drive_link&ouid=118163462700119744611&rtpof=true&sd=true
+```
+
+## Automation Record
+
+Can be downloaded from:
+
+```
+https://drive.google.com/file/d/17aYJXVI60T5F_pch5Z5FFgs_qGUBgShh/view?usp=sharing
 ```
