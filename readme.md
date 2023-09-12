@@ -87,6 +87,9 @@ change export const config to exports.config in wdio.conf.js
 change .env.example to .env
 add user email and password
 ```
+```
+npx wdio --spec ./test/specs/android/1-sebelum.spec.js ./test/specs/android/2-setelah.spec.js ./test/specs/android/3-lainnya.spec.js
+```
 
 ## Manual test cases
 
