@@ -50,5 +50,9 @@ class InputGulaDarahScreen {
   get textBerhasil() {
     return $('//*[@text="Berhasil"]');
   }
+
+  get fillMakanSiang() {
+    return $("~inputFood1");
+  }
 }
 module.exports = new InputGulaDarahScreen();
