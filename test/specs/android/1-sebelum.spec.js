@@ -14,6 +14,10 @@ describe("Sebagai user teman diabetes, saya dapat mencatat gula darah manual den
 
     await rekamanScreen.btnMasukanGulaDarah.click();
     await rekamanScreen.shortDelayTime();
+    await expect(rekamanScreen.btnManual).toBeDisplayed();
+
+    await rekamanScreen.btnManual.click();
+    await rekamanScreen.shortDelayTime();
     await expect(inputGulaDarahScreen.textInputGulaDarah).toBeDisplayed();
   });
 
@@ -26,6 +30,7 @@ describe("Sebagai user teman diabetes, saya dapat mencatat gula darah manual den
       process.env.USER_GULA_DARAH
     );
     await inputGulaDarahScreen.fillSarapan.addValue(process.env.USER_SARAPAN);
+    await inputGulaDarahScreen.scrollToBot();
     await inputGulaDarahScreen.fillSnack.addValue(process.env.USER_SNACK);
     await inputGulaDarahScreen.btnSelesai.click();
     await expect(inputGulaDarahScreen.textKonfirmasiData).toBeDisplayed();

@@ -4,7 +4,7 @@ class RekamanScreen {
   }
 
   async shortDelayTime() {
-    await driver.pause(2000);
+    await driver.pause(5000);
   }
 
   get btnMasukanGulaDarah() {

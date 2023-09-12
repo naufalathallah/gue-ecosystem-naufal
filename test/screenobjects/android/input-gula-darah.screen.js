@@ -54,5 +54,11 @@ class InputGulaDarahScreen {
   get fillMakanSiang() {
     return $("~inputFood1");
   }
+
+  async scrollToBot() {
+    await $(
+      "android=new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(1,5)"
+    );
+  }
 }
 module.exports = new InputGulaDarahScreen();
