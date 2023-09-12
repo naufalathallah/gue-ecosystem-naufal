@@ -1,3 +1,13 @@
-const LoginScreen = require("../../screenobjects/android/login.screen");
-const RekamanScreen = require("../../screenobjects/android/rekaman.screen");
-const InputGulaDarahScreen = require("../../screenobjects/android/input-gula-darah.screen");
+const { login, logout } = require("../../screenobjects/android/helper");
+
+describe("Sebagai user teman diabetes, saya dapat mencatat gula darah manual dengan pemilihan jenis pemeriksaan gula darah sebelum makan siang", () => {
+  it("Login", async () => {
+    await login();
+  });
+
+  it("", async () => {});
+
+  it("Logout", async () => {
+    await logout();
+  });
+});
