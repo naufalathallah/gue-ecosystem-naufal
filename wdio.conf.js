@@ -1,5 +1,3 @@
-const path = require("path");
-
 exports.config = {
   //
   // ====================
@@ -24,7 +22,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ["./test/specs/**/*.js"],
+  specs: ["./test/specs/android/*.js"],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -54,10 +52,12 @@ exports.config = {
   capabilities: [
     {
       "appium:platformName": "Android",
-      "appium:deviceName": "Nexus 5 API 33 Tiramisu",
+      "appium:deviceName": "M2101K7BNY",
       "appium:platformVersion": "13",
       "appium:automationName": "UIAutomator2",
-      //   "appium:app": path.join(process.cwd(), "app/android/"),
+      "appium:autoGrantPermissions": true,
+      "appium:appPackage": "com.temandiabetes.android",
+      "appium:appActivity": ".MainActivity",
     },
   ],
 
