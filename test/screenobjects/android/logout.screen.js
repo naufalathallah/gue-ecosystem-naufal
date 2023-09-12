@@ -12,5 +12,8 @@ class LogoutScreen {
   get btnLogout() {
     return $('//*[@text="Logout"]');
   }
+  async shortDelayTime() {
+    await driver.pause(2000);
+  }
 }
 module.exports = new LogoutScreen();

@@ -48,10 +48,14 @@ class InputGulaDarahScreen {
   }
 
   get textBerhasil() {
-    return $('//*[@text="Berhasil"]');
+    return $('//*[@text="BERHASIL"]');
   }
 
   get fillMakanSiang() {
+    return $("~inputFood1");
+  }
+
+  get fillMakanSebelum() {
     return $("~inputFood1");
   }
 

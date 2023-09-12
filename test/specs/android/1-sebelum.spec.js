@@ -13,7 +13,6 @@ describe("Sebagai user teman diabetes, saya dapat mencatat gula darah manual den
     await expect(rekamanScreen.btnMasukanGulaDarah).toBeDisplayed();
 
     await rekamanScreen.btnMasukanGulaDarah.click();
-    await rekamanScreen.shortDelayTime();
     await expect(rekamanScreen.btnManual).toBeDisplayed();
 
     await rekamanScreen.btnManual.click();

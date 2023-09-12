@@ -14,6 +14,7 @@ async function login() {
 
 async function logout() {
   await logoutScreen.btnProfile.click();
+  await logoutScreen.shortDelayTime();
   await logoutScreen.scrollToBot();
   await logoutScreen.btnLogout.click();
   await expect(loginScreen.fillEmail).toBeDisplayed();

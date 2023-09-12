@@ -1,10 +1,10 @@
 class LoginScreen {
   async midDelayTime() {
-    await driver.pause(10000);
+    await driver.pause(8000);
   }
 
   async shortDelayTime() {
-    await driver.pause(5000);
+    await driver.pause(3000);
   }
 
   get btnSudahPunyaAkun() {
