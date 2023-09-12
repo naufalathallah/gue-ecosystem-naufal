@@ -64,6 +64,30 @@ Total scenario:
 
 Spec Files: 3 passed, 3 total (100% completed) in 00:03:10
 
+## Want to run it by yourself?
+
+steps:
+```
+Clone repo
+```
+```
+npm install
+```
+```
+npm install appium --save-dev
+```
+```
+npm i ts-node --save-dev
+```
+```
+remove "type:module" from the package.json file
+change export const config to exports.config in wdio.conf.js
+```
+```
+change .env.example to .env
+add user email and password
+```
+
 ## Manual test cases
 
 Manual test cases using ![Cucumber](https://img.shields.io/badge/Cucumber-%235B2063.svg?style=flat&logo=Cucumber&logoColor=white) style. The excel can be downloaded from here:
