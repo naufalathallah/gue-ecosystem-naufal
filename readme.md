@@ -8,7 +8,7 @@ the repository contains:
 
 ## Stack used
 
-![WebdriverIO](https://img.shields.io/badge/WebdriverIO-%236D44A1.svg?style=flat&logo=WebdriverIO&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-%23343FC9.svg?style=flat&logo=Appium&logoColor=white)
+![WebdriverIO](https://img.shields.io/badge/WebdriverIO-%236D44A1.svg?style=flat&logo=WebdriverIO&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-%23343FC9.svg?style=flat&logo=Appium&logoColor=white) ![Mocha](https://img.shields.io/badge/Mocha-%238D6748.svg?style=flat&logo=Mocha&logoColor=white)
 
 ## Automation Detail
 
